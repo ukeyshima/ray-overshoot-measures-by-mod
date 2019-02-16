@@ -9,7 +9,7 @@ const stores = {
   state: new State()
 };
 
-class ShadertoyStart extends React.Component {
+class RayOvershootMeasuresByMod extends React.Component {
   componentDidMount() {
     style.use();
   }
@@ -27,4 +27,4 @@ class ShadertoyStart extends React.Component {
   }
 }
 
-ReactDOM.render(<ShadertoyStart />, document.getElementById('root'));
+ReactDOM.render(<RayOvershootMeasuresByMod />, document.getElementById('root'));
